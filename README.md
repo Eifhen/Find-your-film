@@ -1,4 +1,4 @@
-# Aplicación Find your film
+# Find your film
 
 En esta aplicación podrás crear una lista
 de películas para ver, en el buscador podrás buscar cualquier película
