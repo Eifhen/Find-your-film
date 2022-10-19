@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bundle.css">
+    <script type="module" src="./js/watchlist.js" defer></script>
+    <title>Watchlist</title>
+</head>
+<body>
+    <header class="hero">
+        <div class="mask">
+            <div class="intro container ">
+                <h1 class="title">
+                    My Watchlist
+                </h1>
+                <a class="watchlist row" href="./index.html">
+                    Search for movies
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="align-center flex-column">
+        <div id="intro" class="intro-icon align-center flex-column text-center">
+            <h4 id="intro-title" class="m-0">Your Watchlist is empty</h4>
+            <h6 class="text-dark d-flex align-center flex-column ">
+                Let's add some movies! 
+                <i class="ri-add-circle-fill ri-lg "></i>
+            </h6>
+        </div>
+
+        <div id="main" class="container"></div>
+        <button id="clear-btn" class="clear-blue">Clear Watchlist</button>
+    </main>
+
+
+    <div id="toast" class="toast toast-danger">
+        <p id="toast-msg"></p>
+    </div>
+    
+    <footer>
+        <h3>
+            Gabriel Jiménez <br>
+            06 10 2022
+        </h3>
+    </footer>
+</body>
+</html>
